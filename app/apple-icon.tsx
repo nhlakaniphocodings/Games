@@ -3,11 +3,6 @@ import { ImageResponse } from 'next/og'
 export const size = { width: 180, height: 180 }
 export const contentType = 'image/png'
 
-/**
- * Branded Apple touch icon generated at build time — a black tile with a blue
- * accent square and a white X mark. Drawn with CSS only (no fonts) so it renders
- * reliably in every environment.
- */
 export default function AppleIcon() {
   return new ImageResponse(
     (
@@ -30,7 +25,8 @@ export default function AppleIcon() {
             width: '148px',
             height: '148px',
             borderRadius: '30px',
-            background: '#0066FF',
+            background: '#000000',
+            border: '2px solid #FF0000',
           }}
         >
           <div style={{ position: 'relative', display: 'flex', width: '112px', height: '112px' }}>
@@ -41,7 +37,7 @@ export default function AppleIcon() {
                 top: '0px',
                 width: '20px',
                 height: '112px',
-                background: '#ffffff',
+                background: '#FF0000',
                 borderRadius: '6px',
                 transform: 'rotate(45deg)',
               }}
@@ -53,7 +49,7 @@ export default function AppleIcon() {
                 top: '0px',
                 width: '20px',
                 height: '112px',
-                background: '#ffffff',
+                background: '#FF0000',
                 borderRadius: '6px',
                 transform: 'rotate(-45deg)',
               }}
