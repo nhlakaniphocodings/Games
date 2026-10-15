@@ -497,7 +497,7 @@ export const game: GameModule = {
   instructions: [
     'Reach the glowing door at the end of each level.',
     'Everything is exactly as it looks. Until it is not.',
-    'Traps are deterministic — every death is learnable.',
+    'Traps are deterministic - every death is learnable.',
     'Faint markers show where you died before.',
   ],
   levels: xDevilLevels.length,

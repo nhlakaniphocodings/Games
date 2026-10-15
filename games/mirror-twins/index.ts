@@ -176,7 +176,7 @@ const LEVELS: LevelDef[] = [
   // 1 — one gap per twin, mirrored, cleared by a single shared jump.
   build({
     name: 'First Reflection',
-    hint: 'One set of keys. Two bodies. Press right — they split apart.',
+    hint: 'One set of keys. Two bodies. Press right - they split apart.',
     ground: [[0, 300], [360, 480]],
     spikesA: [P(300, 500, 60, 40)],
     spikesB: [P(120, 500, 60, 40)],
@@ -243,7 +243,7 @@ const LEVELS: LevelDef[] = [
   // 7 — dashed ghost ledges look like help and are not.
   build({
     name: 'Vanishing Act',
-    hint: 'Dashed ledges are ghosts — you fall straight through them.',
+    hint: 'Dashed ledges are ghosts - you fall straight through them.',
     ground: [[0, 170], [390, 480]],
     platforms: [S(250, 420, 90, 20), S(390, 340, 90, 20), S(170, 350, 80, 18, { kind: 'fake' })],
     spikesA: [P(170, 448, 220, 32)],
@@ -874,7 +874,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'One set of keys drives both twins at once.',
-    'Twin A (left) is DIRECT. Twin B (right) is MIRRORED — ← and → are swapped.',
+    'Twin A (left) is DIRECT. Twin B (right) is MIRRORED - ← and → are swapped.',
     'Jumping lifts both. A jump that saves one twin can drop the other.',
     'Slot both twins into their doors. If either twin dies, the level resets.',
     'Drains: stand both twins on their plates to raise the gates.',

@@ -22,7 +22,7 @@ export default function AboutPage() {
             <p>X Games is a browser-based gaming platform. A central place to find and play games directly in your browser, whenever the moment calls for it.</p>
           </div>
           <div className="about-detail">
-            <p>Ten original, brutally difficult games live here now — built to be easy to start and hard to put down. Every trap is deterministic, every death is a lesson, and every level can be beaten.</p>
+            <p>Ten original, brutally difficult games live here now - built to be easy to start and hard to put down. Every trap is deterministic, every death is a lesson, and every level can be beaten.</p>
             <p>No installs, no accounts, no noise. Your progress is saved locally in this browser.</p>
             <p className="footer-meta" style={{ marginBottom: 20 }}>Developed by X Spark.</p>
             <Link href="/games" className="button button-primary">

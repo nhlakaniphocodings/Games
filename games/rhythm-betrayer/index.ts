@@ -782,7 +782,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'Reach the door. Every obstacle runs on the same beat clock.',
-    'Watch the top rail — the beat is fully playable without sound.',
+    'Watch the top rail - the beat is fully playable without sound.',
     'A dashed edge and a "≠" mark mean a hazard lies about the beat.',
     'Tempo changes are announced before they land.',
     'Time your movement to the pulse. The first four beats are a free count-in.',

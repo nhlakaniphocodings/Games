@@ -651,7 +651,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'Reach the door. It only opens to the right gravity.',
-    'Flip gravity — do not jump. You walk on floors and ceilings.',
+    'Flip gravity - do not jump. You walk on floors and ceilings.',
     'Watch the GRAVITY arrow so you always know which way is down.',
     'Hazards have shapes: spikes are triangles, sweepers are serrated bars.',
     'Some ceilings lie, some ground cracks, and some flips are traps.',

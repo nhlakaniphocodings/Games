@@ -65,7 +65,7 @@ export const ccLevels: CCLevel[] = [
   // 1 ── pit in the first second, then a mirrored corridor with a timing blade.
   {
     name: 'Signal Check',
-    hint: 'Mind the first pit. Past the sign the corridor is REVERSED — read the HUD.',
+    hint: 'Mind the first pit. Past the sign the corridor is REVERSED - read the HUD.',
     start: { x: 40, y: GROUND - 32 },
     exit: { x: 905, y: 404, w: 44, h: 76 },
     base: {},
@@ -170,7 +170,7 @@ export const ccLevels: CCLevel[] = [
   // 8 ── fork: reversed high rail over the spikes, or the plain-but-spiked low lane.
   {
     name: 'Twin Signals',
-    hint: 'Two roads, two signs — high is MIRRORED and airy, low is plain but spiked.',
+    hint: 'Two roads, two signs - high is MIRRORED and airy, low is plain but spiked.',
     start: { x: 40, y: GROUND - 32 },
     exit: { x: 905, y: 404, w: 44, h: 76 },
     base: {},
@@ -189,7 +189,7 @@ export const ccLevels: CCLevel[] = [
   // 9 ── the ratchet: reverse, lock, then duck — it stacks and never unwinds.
   {
     name: 'Ratchet',
-    hint: 'Reverse, lock, duck — every plate sticks. Watch the bar and the timed spikes.',
+    hint: 'Reverse, lock, duck - every plate sticks. Watch the bar and the timed spikes.',
     start: { x: 40, y: GROUND - 32 },
     exit: { x: 905, y: 404, w: 44, h: 76 },
     base: {},
@@ -211,7 +211,7 @@ export const ccLevels: CCLevel[] = [
   // 10 ── finale: mirrored span, a blade, a pop-up ambush, then a lying door.
   {
     name: 'Total Chaos',
-    hint: 'Every signal at once. The first door is a lie — only the green one wins.',
+    hint: 'Every signal at once. The first door is a lie - only the green one wins.',
     start: { x: 20, y: GROUND - 32 },
     exit: { x: 896, y: 324, w: 44, h: 76 },
     decoys: [{ x: 840, y: 404, w: 44, h: 76 }],

@@ -35,7 +35,7 @@ export const gravityFlipLevels: GFLevel[] = [
   // 1 -----------------------------------------------------------------------
   {
     name: 'Cold Open',
-    hint: 'Floor and ceiling both bite. Flip before the spikes — and flip back before the next field.',
+    hint: 'Floor and ceiling both bite. Flip before the spikes - and flip back before the next field.',
     start: { x: 40, y: START_Y },
     exit: exitF(896),
     solids: [F(0, 960), C(0, 960)],

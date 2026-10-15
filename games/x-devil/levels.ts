@@ -184,7 +184,7 @@ export const xDevilLevels: XDLevel[] = [
   // ---------------------------------------------------------------------------
   {
     name: 'Behind You',
-    hint: 'Do not look back. Actually, do — it is already gone.',
+    hint: 'Do not look back. Actually, do - it is already gone.',
     start: { x: 40, y: START_Y },
     exit: { x: 896, y: 404, w: 44, h: 76 },
     solids: [

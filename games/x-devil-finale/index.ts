@@ -1404,13 +1404,13 @@ export const game: GameModule = {
   theme,
   controls: [
     { keys: 'A / D or ←/→', label: 'Move (sometimes mirrored)' },
-    { keys: 'W / ↑ / Space', label: 'Jump — or flip gravity' },
+    { keys: 'W / ↑ / Space', label: 'Jump - or flip gravity' },
     { keys: 'E / Enter / J', label: 'Confirm / claim' },
     { keys: 'R', label: 'Restart level' },
     { keys: 'Esc', label: 'Pause' },
   ],
   instructions: [
-    'Ten levels, one for each betrayal you survived — then all of them at once.',
+    'Ten levels, one for each betrayal you survived - then all of them at once.',
     'Every trap is deterministic: read it, learn it, beat it.',
     'The level paints its own signs. The signs can lie. The world cannot.',
     'Some floors fall, some mirrors flip, some platforms are only promises.',

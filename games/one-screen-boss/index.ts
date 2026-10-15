@@ -1176,7 +1176,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'Survive 60 seconds against the boss core on a single fixed screen.',
-    'Free 8-direction movement — there is no jump and nowhere to hide.',
+    'Free 8-direction movement - there is no jump and nowhere to hide.',
     'Every attack telegraphs first: read the warning bar, then move.',
     'Safe gaps and safe cells shift each stage. Stay mobile.',
     'One hit ends the run. All patterns are deterministic and learnable.',

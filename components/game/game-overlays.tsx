@@ -170,7 +170,7 @@ export function LevelCompleteOverlay({
             <span className="stat-value">{bestMs != null ? formatTime(Math.min(bestMs, timeMs)) : formatTime(timeMs)}</span>
           </div>
         </div>
-        {noDeath && <p className="flawless">★ Flawless clear — not a single death.</p>}
+        {noDeath && <p className="flawless">★ Flawless clear - not a single death.</p>}
         <div className="overlay-actions">
           {!isLast && (
             <button type="button" className="primary-btn" onClick={onNext}>
@@ -214,7 +214,7 @@ export function GameCompleteOverlay({
     <div className="game-overlay game-overlay-final" role="dialog" aria-modal="true" aria-label="Game complete">
       <div className="overlay-panel">
         <p className="overlay-kicker">Victory</p>
-        <h2 className="overlay-title overlay-title-xl">{title} — FINISHED</h2>
+        <h2 className="overlay-title overlay-title-xl">{title} - FINISHED</h2>
         <p className="overlay-tagline">You survived all {totalLevels} levels. The traps are taking it personally.</p>
         <div className="stat-row">
           <div className="stat">

@@ -901,7 +901,7 @@ class InvisiblePathRuntime implements GameRuntime {
     }
 
     if (this.phase === 'play') {
-      const msg = this.noFlashT > 0 ? 'OUT OF RECALLS' : this.flashes > 0 ? 'E / J  —  RECALL' : 'NO RECALLS LEFT'
+      const msg = this.noFlashT > 0 ? 'OUT OF RECALLS' : this.flashes > 0 ? 'E / J  -  RECALL' : 'NO RECALLS LEFT'
       const col = this.noFlashT > 0 || this.flashes <= 0 ? 'rgba(255,120,140,0.85)' : 'rgba(200,190,255,0.55)'
       label(g, msg, w / 2, 524, { size: 13, color: col, align: 'center', weight: '700' })
     }
@@ -953,7 +953,7 @@ export const game: GameModule = {
     { keys: 'Esc', label: 'Pause' },
   ],
   instructions: [
-    'Every level opens with a preview — memorise the safe route.',
+    'Every level opens with a preview - memorise the safe route.',
     'Then the platforms turn invisible. Smooth slabs are safe; jagged ones are deadly.',
     'Press E to flash the path back for a heartbeat. You only get a few.',
     'Step on glowing runes to bank a checkpoint. Deaths keep it.',

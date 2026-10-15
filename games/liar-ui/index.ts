@@ -797,7 +797,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'Reach the glowing door. Read the world, not the labels.',
-    'Captions, arrows and the minimap are drawn by the level — they can lie.',
+    'Captions, arrows and the minimap are drawn by the level - they can lie.',
     'Tap a button or platform, or stand close, face it and press E.',
     'Every trap is deterministic. A second look always beats it.',
   ],

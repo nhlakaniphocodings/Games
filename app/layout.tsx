@@ -3,16 +3,11 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'X Games — Play without limits',
+  title: 'X Games - Play without limits',
   description: 'A focused collection of browser games built for quick escapes, deep focus, and everything in between.',
   generator: 'X Games',
   icons: {
-    icon: [
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/favicon.png',
     apple: '/apple-icon',
   },
 }

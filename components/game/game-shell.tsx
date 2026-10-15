@@ -329,7 +329,7 @@ export function GameShell({ module: mod }: { module: GameModule }) {
             totalDeaths={record.totalDeaths}
             clearedLevels={clearedLevels}
             totalLevels={mod.levels}
-            bestLabel={bestMs != null ? formatTime(bestMs) : '—'}
+            bestLabel={bestMs != null ? formatTime(bestMs) : '-'}
             onReplay={() => controllerRef.current?.begin(1)}
             onLevels={openLevels}
             onShare={share}

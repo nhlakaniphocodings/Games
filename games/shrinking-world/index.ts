@@ -808,7 +808,7 @@ export const game: GameModule = {
   ],
   instructions: [
     'Reach the green exit before the world closes around you.',
-    'Retracting, blinking and crumbling floors are telegraphed — read the bars.',
+    'Retracting, blinking and crumbling floors are telegraphed - read the bars.',
     'Plates you leave behind drop away: there is no going back.',
     'Later rooms bait you with fake doors. The quiet exit is the real one.',
     'If the jaws reach you, you are already too late.',
